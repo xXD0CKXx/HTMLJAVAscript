@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head> Esercitazione di prova</head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<body style="background-color:powderblue;">
+<title> Esercitazione 1</title>
+<h1 style="font-size:20px;"> Questa è una pagina di esercitazione, in vista della verifica.</h1>
+<body>
+<p1 style="color:red;"> Primo paragrafo: elencherò le componenti di un cumputer attraverso
+l'utilizzo di una lista ordinata.
+</p1>
+<!-- Questa e' una lista ordinata con i componenti principali di un pc -->
+<ol>
+<li style="color:green;"> SCHEDA MADRE </li>
+<li style="color:red;"> PSU </li>
+<li style="color:black;"> CPU </li>
+<li style="color:white;"> GPU </li>
+<li style="color:brown;"> RAM </li>
+<li style="color:pink;"> ROM </li>
+<li style="color:purple;"> CASE </li>
+<li style="color:yellow;"> COOLING </li>
+</ol>
+<!-- Questa e una lista non ordinata dove elenchero' le mie moto preferite  e le dimensioni di tale si adatterano a quelle browser -->
+<ul>
+<li style="font-size:1vw">KTM sx 2024</li>
+<li style="font-size:1vw">Tm smr 2023</li>
+<li style="font-size:1vw">GAS GAS mc 2023</li>
+<li style="font-size:1vw">Husquarna tc 2024</li>
+</ul>
+<!-- Mostrero delle immagini delle moto che ho riportato prima e le dimensioni di tale si adatterano a quelle browser-->
+<img src="Ktmfuego.jpeg" style="max-width:20%;height:auto;" alt="KTM sx 2024">
+<img src="TM.webp" style="max-width:20%;height:auto;" alt="TM smr 2023">
+<img src="GAsgas.avif" style="max-width:20%;height:auto;" alt="GAS GAS mc 2023">
+<img src="te125.webp" style="max-width:20%;height:auto;" alt="Husquarna tc 2024">
+<!-- Mostrero dei link che porteranno ad una pagina per vedere i dettagli delle  moto e le dimensioni di tale si adatterano a quelle browser-->
+<ol>
+<li style="font-size:1vw"><a href="https://www.ktm.com/it-it/models/mx/2-tempi/125-sx-2024.html">Sito del ktm</a></li>
+<li style="font-size:1vw"><a href="https://www.tmracing.it/portfolio-items/smr-125-fi-2t/">Sito del tm</a></li>
+<li style="font-size:1vw"><a href="https://www.gasgas.com/it-it/models/motocross/2-tempi/mc-125-2024.html">Sito del GAS GAS</a></li>
+<li style="font-size:1vw"><a href="https://www.husqvarna-motorcycles.com/it-it/models/motocross/2-tempi/tc-125-2024.html">Sito dell husquarna</a></li>
+</ol>
+<!-- Mostrero dei box riguardanti un modulo che andranno prima compilati e poi inviati-->
+<form action="/action_page.php">
+  <label  for="fname">Nome Completo:</label><br>
+  <input type="text" id="fname" name="fname"><br><br>
+</form>
+<form>
+  <label  for="eml">E-mail:</label><br>
+  <input type="email" id="Email" name="email">
+</form>
+<form action="/action_page.php">
+  <textarea  name="Messagio" rows="10" cols="30">Scrivi qualcosa: </textarea>
+  <br><br>
+  <input type="submit">
+</form>
